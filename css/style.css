@@ -27,14 +27,6 @@ header p {
   font-size: 1.2rem;
 }
 
-#swinburne {
-    
-    max-width: 10%;
-    max-height: 10%;
-    float: right;
-    
-}
-
 /* Navigation bar styles */
 nav {
   background-color: #fff;
@@ -72,14 +64,18 @@ nav a:hover {
 
 /* Hero section styles */
 #hero {
-  background-color: #f2f2f2;
   padding: 100px 0;
   text-align: center;
 }
 
+.cover-image img {
+    
+    object-fit: contain;
+    
+}
+
 .hero-image img {
   max-width: 100%;
-  background-image: url('Images/cover-image.jpg');
   width: 9%;
 }
 
